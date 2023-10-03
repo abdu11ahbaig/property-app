@@ -1,5 +1,13 @@
 {
   "typescript.tsdk": "node_modules/typescript/lib",
   "typescript.enablePromptUseWorkspaceTsdk": true,
-  "cSpell.words": ["amenitis", "latlng", "prismadb", "waterbnb"]
+  "cSpell.words": [
+    "amenitis",
+    "bahtrooms",
+    "cloudinary",
+    "latlng",
+    "nextauth",
+    "prismadb",
+    "waterbnb"
+  ]
 }
