@@ -97,19 +97,19 @@ const RentModal = () => {
     setIsLoading(true);
 
     axios.post('/api/listings', data)
-    .then(() => {
-      toast.success('Listing created!😊');
-      router.refresh();
-      reset();
-      setStep(STEPS.CATEGORY)
-      rentModal.onClose();
-    })
-    .catch(() => {
-      toast.error('Something went wrong.🙁');
-    })
-    .finally(() => {
-      setIsLoading(false);
-    })
+      .then(() => {
+        toast.success('Listing created!😊');
+        router.refresh();
+        reset();
+        setStep(STEPS.CATEGORY)
+        rentModal.onClose();
+      })
+      .catch(() => {
+        toast.error('Something went wrong.🙁');
+      })
+      .finally(() => {
+        setIsLoading(false);
+      })
   }
 
   const actionLabel = useMemo(() => {

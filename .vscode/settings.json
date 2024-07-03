@@ -5,6 +5,8 @@
     "amenitis",
     "bahtrooms",
     "cloudinary",
+    "Favorited",
+    "googleusercontent",
     "latlng",
     "nextauth",
     "prismadb",

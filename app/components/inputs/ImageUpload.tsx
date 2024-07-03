@@ -25,8 +25,8 @@ const ImageUpload: React.FC<ImageUploadProps> = ({
   }, [onChange]);
 
   return (
-    <CldUploadWidget 
-      onUpload={handleUpload} 
+    <CldUploadWidget
+      onUpload={handleUpload}
       uploadPreset={uploadPreset}
       options={{
         maxFiles: 1
@@ -41,9 +41,9 @@ const ImageUpload: React.FC<ImageUploadProps> = ({
               cursor-pointer
               hover:opacity-70
               transition
-              border-dashed 
-              border-2 
-              p-20 
+              border-dashed
+              border-2
+              p-20
               border-neutral-300
               flex
               flex-col
@@ -63,15 +63,15 @@ const ImageUpload: React.FC<ImageUploadProps> = ({
               <div className="
               absolute inset-0 w-full h-full">
                 <Image
-                  fill 
-                  style={{ objectFit: 'cover' }} 
-                  src={value} 
-                  alt="House" 
+                  fill
+                  style={{ objectFit: 'cover' }}
+                  src={value}
+                  alt="House"
                 />
               </div>
             )}
           </div>
-        ) 
+        )
     }}
     </CldUploadWidget>
   );
